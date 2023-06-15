@@ -1,6 +1,8 @@
 #include <stdio.h>
 /**
- * function demonstrating use of puts
+ * main - demonstrating use of puts
+ *
+ * return - 0
  */
 
 int main(void)
