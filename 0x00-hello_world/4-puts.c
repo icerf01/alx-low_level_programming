@@ -2,7 +2,8 @@
 /**
  * main - demonstrating use of puts
  *
- * return - 0
+ *Return:returns zero for void 
+ * 
  */
 
 int main(void)
