@@ -1,16 +1,19 @@
-#include <stdio.h>
+
 
 /**
- * main - returns lower a-z
+ * main - Entry point
  *
- * Return: returns 0 upon success
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	char l;
-	for (l = 'a'; l <= 'z'; l++)
-		putchar(l);
+	char low;
+
+	for (low = 'a'; low <= 'z'; low++)
+	{
+		putchar(low);
 		putchar('\n');
+	}
 	return (0);
 }
