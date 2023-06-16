@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
  * main - function that prints stored number
  *
@@ -14,11 +15,11 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if(n>0)
 	{
-		printf("%lf is positive\n",n);
+		printf("%Lf is positive\n",n);
 	}
 	else
 	{
-		printf("%lf is negative\n",n);
+		printf("%Lf is negative\n",n);
 	}
 	
 	return (0);
