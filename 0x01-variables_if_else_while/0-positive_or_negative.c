@@ -5,7 +5,7 @@
 /**
  * main - function that prints stored number
  *
- * Return : returns 0 upon success
+ * Return: returns 0 upon success
  */
 int main(void)
 {
