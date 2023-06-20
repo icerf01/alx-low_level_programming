@@ -8,7 +8,7 @@ int pp(void)
 
 int la(void)
 {
-	int l;
+	char l;
 
 	for (l = 'a'; l <= 'z'; l++)
 		putchar(l);
