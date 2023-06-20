@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - prints a-z using the main.h
@@ -7,9 +8,6 @@
  */
 int main(void)
 {
-	char l;
-	for (l = 'a'; l <= 'z'; l++ )
-		putchar(l);
-	putchar('\n');
+	print_alphabet(void);
 	return (0);
 }
