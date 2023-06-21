@@ -8,9 +8,10 @@
 int _islower(int c)
 {
 	char alp;
-	char a[26];
+	char a[27];
 	int i = 0;
 	int b;
+	int d = 0;
 
 	for (alp = 'a'; alp <= 'z'; alp++)
 	{
@@ -20,9 +21,8 @@ int _islower(int c)
 	for (b = 0; b < 26; b++)
 	{
 		if (c == a[b])
-			return (1);
-		else
-			return (0);
+			d = 1;
 	}
+
+	return (d);
 }
-		
