@@ -7,14 +7,22 @@
  */
 int _islower(int c)
 {
-	char i;
-	int l = 0;
+	char alp;
+	char a[27];
+	int i = 0;
+	int b;
+	int d = 0;
 
-	for (i = 'a'; i <= 'z'; i++)
+	for(alp = 'a'; alp <= 'z'; alp++)
 	{
-		if (i == c)
-			l = 1;
+		a[i] = alp;
+		i++;
+	}
+	for(b = 0; b <= 26; b++)
+	{
+		if (c == a[b])
+			d = 1;
 	}
 
-	return (l);
+	return (d);
 }
