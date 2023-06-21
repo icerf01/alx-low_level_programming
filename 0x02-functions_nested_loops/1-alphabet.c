@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - prints a-z using the main.h
+ * print_alphabet - prints a-z using function already defined in main.h
  *
- * Return: returns 0 upon success
+ * Return: no return value
  */
 void print_alphabet(void)
 {
