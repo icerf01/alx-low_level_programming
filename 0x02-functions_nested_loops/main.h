@@ -23,7 +23,7 @@ void print_alphabet_x10(void)
 	for (a = 0; a < 10; a++ )
 	{
 		for (l10 = 'a'; l10 <= 'z'; l10++ )
-			putchar(l);
+			putchar(l10);
 		putchar('\n');
 	}
 }
