@@ -14,3 +14,15 @@ void print_alphabet(void)
 		putchar(l);
 	putchar('\n');
 }
+
+void print_alphabet_x10(void)
+{
+	char l10, char a;
+
+	for (a = 0; a < 10; a++ )
+	{
+		for (l = 'a'; l <= 'z'; l++ )
+			putchar(l);
+		putchar('\n');
+	}
+}
