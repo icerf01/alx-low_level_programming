@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -6,8 +5,11 @@
  *
  * Return: returns 0 upon success
  */
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
-	return (0);
+	char 'l';
+
+	for (l = 'a'; l <= 'z'; l++)
+		_putchar(l);
+	_putchar('\n');
 }
