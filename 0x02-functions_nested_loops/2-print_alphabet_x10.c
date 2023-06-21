@@ -1,13 +1,19 @@
 #include "main.h"
 
 /**
- * main - calls a function from main.h that prints a-z 10 times
+ * print_alphabet_x10 - print a-z 10 times on seperate lines
  *
- * Retuen: returns 0 upon success
+ * Return: no return value
  */
-int main(void)
+void print_alphabet_x10(void);
 {
-	print_alphabet_x10();
+	char l;
+	char a;
 
-	return (0);
+	for (a =0; a < 10; a++)
+	{
+		for (l = 'a'; l <= 'z'; l++)
+			putchar(l);
+		putchar('\n');
+	}
 }
