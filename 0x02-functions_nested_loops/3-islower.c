@@ -7,8 +7,8 @@
  */
 int _islower(int c)
 {
-	char alp;
-	char a[27];
+	int alp;
+	int a[27];
 	int i = 0;
 	int b;
 	int d = 48;
