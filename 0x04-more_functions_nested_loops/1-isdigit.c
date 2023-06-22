@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- * _isdigit - this function checks if input
- * is a digit (0-9)
+ * _isdigit - funct checks if input is digit
  *
  * Return: return 0 if postive, else ret 1
  */
