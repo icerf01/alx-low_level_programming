@@ -7,7 +7,7 @@
  */
 int _isupper(int c)
 {
-	char alp;
+	int alp;
 	char a[27];
 	int i = 0;
 	int b;
