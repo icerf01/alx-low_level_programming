@@ -2,9 +2,8 @@
 #include <stdio.h>
 
 /**
- * main - print 1-100 replacing x3 with
+ * main - print 1-100 replacing x3 with,
  * fizz and x5 with buzz
- * @i: enumerates 1-100
  * Return: return 0
  */
 int main(void)
@@ -13,7 +12,7 @@ int main(void)
 
 	for(; i <= 100; i++)
 	{
-		if (i% 3 == 0 && i % 5 == 0)
+		if (i % 3 == 0 && i % 5 == 0)
 			printf("FizzBuzz ");
 		else if (i % 3 == 0)
 			printf("Fizz ");
