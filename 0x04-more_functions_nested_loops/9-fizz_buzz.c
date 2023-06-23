@@ -1,10 +1,12 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * fizz_buzz - print 1-100 replacing x3 with
+ * main - print 1-100 replacing x3 with
  * fizz and x5 with buzz
+ * Return: return 0
  */
-void fizz_buzz(void)
+int main(void)
 {
 	int i = 1;
 
@@ -19,4 +21,6 @@ void fizz_buzz(void)
 		else
 			printf("%d ",i);
 	}
+
+	return (0);
 }
