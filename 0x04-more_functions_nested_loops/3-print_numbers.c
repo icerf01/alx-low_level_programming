@@ -1,15 +1,16 @@
 #include "main.h"
 
 /**
- * print_numbers - prints 0-9 \n
- * @a: enumerates 0-9
- * Return: void
+ * print_numbers - funct that print numbers,
+ * 0-9
+ * followed by a new line.
+ * Return: Always 0
  */
 void print_numbers(void)
 {
-	int a;
+	int i = '0';
 
-	for (a = '0'; a <= '9'; a++)
-		putchar(a);
-	putchar("\n");
+	for (; i <= '9'; i++)
+		_putchar(i);
+	_putchar('\n');
 }
