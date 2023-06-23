@@ -5,7 +5,7 @@
  * @a: enumerates 0-9
  * Return: void
  */
-void print_numbers()
+void print_numbers(void)
 {
 	int a;
 
