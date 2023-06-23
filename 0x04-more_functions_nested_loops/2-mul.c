@@ -3,12 +3,15 @@
 /**
  * mul - function to multiply 2 integers
  *
- * Return: return result
+ * @r : result
+ *
+ * Return: return result r
  */
 int mul(int a, int b)
 {
 	int r;
 
 	r = a * b;
+
 	return (r);
 }
