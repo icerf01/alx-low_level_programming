@@ -13,6 +13,6 @@ int main(void)
 		while (y % x == 0 && y != x)
 			y /= x;
 	}
-	printf("%lu\y", y);
+	printf("%lu\n", y);
 	return (0);
 }
