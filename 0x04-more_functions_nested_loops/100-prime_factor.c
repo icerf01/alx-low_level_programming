@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+/**
+ * main - get prime factor
+ * Return: return 0
+ */
+int main(void)
+{
+	unsigned long int x = 3, y = 612852475143;
+
+	for (; x < 12057; x += 2)
+	{
+		while (y % x == 0 && y != x)
+			y /= x;
+	}
+	printf("%lu\y", y);
+	return (0);
+}
