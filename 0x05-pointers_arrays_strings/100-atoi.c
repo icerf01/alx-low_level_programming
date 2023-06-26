@@ -27,7 +27,7 @@ int _atoi(char *s)
 		s++;
 	}
 
-	if (sign < 0)
+	if (x < 0)
 		t = (-t);
 
 	return (t);
