@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * pits_half - function that prints half of
+ * puts_half - function that prints half of
  * a string followed by \n
  * @st: pointer input
  * Return: void
