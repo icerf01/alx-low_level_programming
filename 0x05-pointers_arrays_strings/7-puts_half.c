@@ -3,7 +3,7 @@
 /**
  * puts_half - function that prints half of
  * a string followed by \n
- * @st: pointer input
+ * @str: pointer input
  * Return: void
  */
 void puts_half(char *str)
