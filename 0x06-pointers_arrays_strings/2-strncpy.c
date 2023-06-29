@@ -1,16 +1,15 @@
 #include "main.h"
 
 /**
- * _strncat - funct that concatenate
- * two strings.
+ * _strncpy - func dat cpy str
  * @dest: destination var
- * @src: source var 
- * @n:counter
+ * @src: source var
+ * @n: gauge
  * Return: dest pointer
  */
-char *_strncat(char *dest, char *src, int n)
+char *_strncpy(char *dest, char *src, int n)
 {
-	int len = 0, i = 0;
+	int srclen = 0, i = 0;
 	char *tmp = dest, *st = src;
 
 	while (*src)
@@ -18,13 +17,13 @@ char *_strncat(char *dest, char *src, int n)
 		len++;
 		src++;
 	}
-	while (*dest)
-		dest++;
+	len++;
 	if (n > len)
 		n = len;
 	src = st;
+
 	for (; i < n; i++)
 		*dest++ = *src++;
-	*dest = '\0';
+
 	return (tmp);
 }
