@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *_strcat - function that concat 
+ * _strcat - function that concat 
  * two strings
  * @dest: stores the final string
  * @src: holds the first string
