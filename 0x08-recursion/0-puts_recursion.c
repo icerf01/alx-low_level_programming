@@ -7,4 +7,6 @@
  * @Return: void
  */
 void _puts_recursion(char *s)
-	return ("%s\n",*s);
+{
+	printf("%s\n",*s)
+}
