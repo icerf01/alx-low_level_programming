@@ -2,10 +2,10 @@
 
 /**
  * _strdup - A function that returns
- * a pointer to a newly allocated 
+ * a pointer to a newly allocated
  * space in memory. which contains
  * copy of string given as parameter
- * @*str: string given as parameter
+ * @str: string given as parameter
  * Return: pointer to *str
  */
 char *_strdup(char *str)
