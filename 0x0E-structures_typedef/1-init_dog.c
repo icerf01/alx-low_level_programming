@@ -1,9 +1,10 @@
 #include "main.h"
+#include "dog.h"
 
 /**
  * init_dog - function that init var
  * of type struct dog
- * @dog: struct dog
+ * @d: struct dog
  * @name: dog's name
  * @age: dog's age
  * @owner: dog's owner name
