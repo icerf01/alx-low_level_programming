@@ -5,9 +5,9 @@
  * @owner: Dog's owner
  * Description: data struct for dog
  */
-struct dog
+typedef struct dog
 {
 	char *name;
 	float age;
 	char *owner;
-};
+} dog_t;
