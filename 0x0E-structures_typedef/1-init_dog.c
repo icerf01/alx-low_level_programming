@@ -1,6 +1,7 @@
 #include "main.h"
 #include "dog.h"
 #include <stdlib.h>
+#include <string.h>
 
 /**
  * init_dog - a function that init
@@ -13,4 +14,7 @@
  */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
+	strcpy(d->name, name);
+	d->age = age;
+	strcpy(d->owner, owner);
 }
