@@ -23,7 +23,10 @@ char *str_concat(char *s1, char *s2)
 		return (NULL);
 	for (d = 0; d < a; d++)
 		s3[d] = a;
-	for (d; d < c; d++)
+	while (d < c)
+	{
 		s3[d] = a;
+		d++;
+	}
 	return (s3);
 }
