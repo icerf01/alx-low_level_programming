@@ -8,26 +8,19 @@
  */
 int *array_range(int min, int max)
 {
-	int *point;
-	
+	int *new_array;
+	int diff, i;
+
 	if (min > max)
-	    return (NULL);
-	    
-	int e = (max - min) + 1;
-	point = malloc(e * sizeof(int));
-	
-	if (point == NULL)
-	{
-	    return (NULL);
-	}
-	
-	int f = 0;
-	
-	while ( f < e)
-	{
-	    point[f] = f + min;
-	    f++;
-	}
-	return (point);
-	
+		return (NULL);
+
+	diff = max - min;
+	new_array = malloc((diff + 1) * sizeof(int));
+	if (new_array == NULL)
+		return (NULL);
+
+	for (i = 0; i <= diff; i++)
+		new_array[i] = min++;
+
+	return (new_array);
 }
