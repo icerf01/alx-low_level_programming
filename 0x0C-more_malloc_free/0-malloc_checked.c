@@ -5,6 +5,7 @@
  * @b: unsigned size int.
  * Return: pointer to allocated memory or NULL upon failure.
  */
+
 void *malloc_checked(unsigned int b)
 {
 	void *a;
