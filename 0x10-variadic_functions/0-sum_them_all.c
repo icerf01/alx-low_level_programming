@@ -12,19 +12,17 @@ int sum_them_all(const unsigned int n, ...)
 {
 	int result = 0;
 	unsigned int i = 0;
-	int value;
 	va_list a;
-	va_start(a, n);
 
 	if (n == 0)
 		return (0);
 
+	va_start(a, n);
 	for (i; i < n; i++)
 	{
-		value = va_arg(a, int);
-		result += value;
+		result += va_arg(a, int);
 	}
+	
 	va_end(a);
-
 	return (result);
 }
